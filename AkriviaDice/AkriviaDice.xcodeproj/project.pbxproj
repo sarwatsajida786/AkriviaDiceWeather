@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A0810A626523B15001AA231 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A08109226523B14001AA231 /* Weather.swift */; };
+		5A0810A726523B15001AA231 /* WeatherNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A08109426523B14001AA231 /* WeatherNetworkManager.swift */; };
+		5A0810A826523B15001AA231 /* NetworkManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A08109526523B14001AA231 /* NetworkManagerProtocol.swift */; };
+		5A0810A926523B15001AA231 /* NetworkProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A08109626523B14001AA231 /* NetworkProperties.swift */; };
+		5A0810AA26523B15001AA231 /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A08109826523B14001AA231 /* WeatherVC.swift */; };
+		5A0810AC26523B15001AA231 /* DateExtension.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A08109B26523B14001AA231 /* DateExtension.xcdatamodeld */; };
+		5A0810AD26523B15001AA231 /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A08109D26523B14001AA231 /* IntExtension.swift */; };
+		5A0810AE26523B15001AA231 /* ImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A08109E26523B14001AA231 /* ImageViewExtension.swift */; };
+		5A0810AF26523B15001AA231 /* KelvinToCelciusConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A08109F26523B14001AA231 /* KelvinToCelciusConverter.swift */; };
+		5A0810B026523B15001AA231 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0810A026523B14001AA231 /* DateExtension.swift */; };
+		5A0810B826523B19001AA231 /* DiceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A0810B726523B19001AA231 /* DiceVC.swift */; };
+		5A12C1E326514B020013DEA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A12C1E226514B020013DEA6 /* AppDelegate.swift */; };
+		5A12C1E526514B020013DEA6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A12C1E426514B020013DEA6 /* SceneDelegate.swift */; };
+		5A12C1EA26514B020013DEA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A12C1E826514B020013DEA6 /* Main.storyboard */; };
+		5A12C1EC26514B040013DEA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A12C1EB26514B040013DEA6 /* Assets.xcassets */; };
+		5A12C1EF26514B040013DEA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A12C1ED26514B040013DEA6 /* LaunchScreen.storyboard */; };
+		5A12C1FA26514B050013DEA6 /* AkriviaDiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A12C1F926514B050013DEA6 /* AkriviaDiceTests.swift */; };
+		5A12C20526514B050013DEA6 /* AkriviaDiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A12C20426514B050013DEA6 /* AkriviaDiceUITests.swift */; };
+		5A12C22226516C940013DEA6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A12C22126516C940013DEA6 /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A12C1F626514B050013DEA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A12C1D726514B020013DEA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A12C1DE26514B020013DEA6;
+			remoteInfo = AkriviaDice;
+		};
+		5A12C20126514B050013DEA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A12C1D726514B020013DEA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A12C1DE26514B020013DEA6;
+			remoteInfo = AkriviaDice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A08109226523B14001AA231 /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		5A08109426523B14001AA231 /* WeatherNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherNetworkManager.swift; sourceTree = "<group>"; };
+		5A08109526523B14001AA231 /* NetworkManagerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManagerProtocol.swift; sourceTree = "<group>"; };
+		5A08109626523B14001AA231 /* NetworkProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkProperties.swift; sourceTree = "<group>"; };
+		5A08109826523B14001AA231 /* WeatherVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherVC.swift; sourceTree = "<group>"; };
+		5A08109C26523B14001AA231 /* DateExtension.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DateExtension.xcdatamodel; sourceTree = "<group>"; };
+		5A08109D26523B14001AA231 /* IntExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
+		5A08109E26523B14001AA231 /* ImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewExtension.swift; sourceTree = "<group>"; };
+		5A08109F26523B14001AA231 /* KelvinToCelciusConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KelvinToCelciusConverter.swift; sourceTree = "<group>"; };
+		5A0810A026523B14001AA231 /* DateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		5A0810B726523B19001AA231 /* DiceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceVC.swift; sourceTree = "<group>"; };
+		5A12C1DF26514B020013DEA6 /* AkriviaDice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AkriviaDice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A12C1E226514B020013DEA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A12C1E426514B020013DEA6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5A12C1E926514B020013DEA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A12C1EB26514B040013DEA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A12C1EE26514B040013DEA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A12C1F026514B040013DEA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A12C1F526514B050013DEA6 /* AkriviaDiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AkriviaDiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A12C1F926514B050013DEA6 /* AkriviaDiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AkriviaDiceTests.swift; sourceTree = "<group>"; };
+		5A12C1FB26514B050013DEA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A12C20026514B050013DEA6 /* AkriviaDiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AkriviaDiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A12C20426514B050013DEA6 /* AkriviaDiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AkriviaDiceUITests.swift; sourceTree = "<group>"; };
+		5A12C20626514B050013DEA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A12C22126516C940013DEA6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A12C1DC26514B020013DEA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A12C22226516C940013DEA6 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A12C1F226514B050013DEA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A12C1FD26514B050013DEA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A08109026523B14001AA231 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5A08109226523B14001AA231 /* Weather.swift */,
+			);
+			name = Model;
+			path = "../../../Downloads/SimpleWeatherForecastApp-master/WeatherApp/WeatherApp/Model";
+			sourceTree = "<group>";
+		};
+		5A08109326523B14001AA231 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				5A08109426523B14001AA231 /* WeatherNetworkManager.swift */,
+				5A08109526523B14001AA231 /* NetworkManagerProtocol.swift */,
+				5A08109626523B14001AA231 /* NetworkProperties.swift */,
+			);
+			name = NetworkManager;
+			path = "../../../Downloads/SimpleWeatherForecastApp-master/WeatherApp/WeatherApp/NetworkManager";
+			sourceTree = "<group>";
+		};
+		5A08109726523B14001AA231 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5A0810B726523B19001AA231 /* DiceVC.swift */,
+				5A08109826523B14001AA231 /* WeatherVC.swift */,
+			);
+			name = Controllers;
+			path = "../../../Downloads/SimpleWeatherForecastApp-master/WeatherApp/WeatherApp/Controllers";
+			sourceTree = "<group>";
+		};
+		5A08109A26523B14001AA231 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5A08109B26523B14001AA231 /* DateExtension.xcdatamodeld */,
+				5A08109D26523B14001AA231 /* IntExtension.swift */,
+				5A08109E26523B14001AA231 /* ImageViewExtension.swift */,
+				5A08109F26523B14001AA231 /* KelvinToCelciusConverter.swift */,
+				5A0810A026523B14001AA231 /* DateExtension.swift */,
+			);
+			name = Extension;
+			path = "../../../Downloads/SimpleWeatherForecastApp-master/WeatherApp/WeatherApp/Extension";
+			sourceTree = "<group>";
+		};
+		5A12C1D626514B020013DEA6 = {
+			isa = PBXGroup;
+			children = (
+				5A12C1E126514B020013DEA6 /* AkriviaDice */,
+				5A12C1F826514B050013DEA6 /* AkriviaDiceTests */,
+				5A12C20326514B050013DEA6 /* AkriviaDiceUITests */,
+				5A12C1E026514B020013DEA6 /* Products */,
+				5A12C22026516C930013DEA6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5A12C1E026514B020013DEA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A12C1DF26514B020013DEA6 /* AkriviaDice.app */,
+				5A12C1F526514B050013DEA6 /* AkriviaDiceTests.xctest */,
+				5A12C20026514B050013DEA6 /* AkriviaDiceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A12C1E126514B020013DEA6 /* AkriviaDice */ = {
+			isa = PBXGroup;
+			children = (
+				5A12C1E226514B020013DEA6 /* AppDelegate.swift */,
+				5A12C1E426514B020013DEA6 /* SceneDelegate.swift */,
+				5A08109726523B14001AA231 /* Controllers */,
+				5A08109A26523B14001AA231 /* Extension */,
+				5A08109026523B14001AA231 /* Model */,
+				5A08109326523B14001AA231 /* NetworkManager */,
+				5A12C1E826514B020013DEA6 /* Main.storyboard */,
+				5A12C1EB26514B040013DEA6 /* Assets.xcassets */,
+				5A12C1ED26514B040013DEA6 /* LaunchScreen.storyboard */,
+				5A12C1F026514B040013DEA6 /* Info.plist */,
+			);
+			path = AkriviaDice;
+			sourceTree = "<group>";
+		};
+		5A12C1F826514B050013DEA6 /* AkriviaDiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A12C1F926514B050013DEA6 /* AkriviaDiceTests.swift */,
+				5A12C1FB26514B050013DEA6 /* Info.plist */,
+			);
+			path = AkriviaDiceTests;
+			sourceTree = "<group>";
+		};
+		5A12C20326514B050013DEA6 /* AkriviaDiceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A12C20426514B050013DEA6 /* AkriviaDiceUITests.swift */,
+				5A12C20626514B050013DEA6 /* Info.plist */,
+			);
+			path = AkriviaDiceUITests;
+			sourceTree = "<group>";
+		};
+		5A12C22026516C930013DEA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A12C22126516C940013DEA6 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A12C1DE26514B020013DEA6 /* AkriviaDice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A12C20926514B050013DEA6 /* Build configuration list for PBXNativeTarget "AkriviaDice" */;
+			buildPhases = (
+				5A12C1DB26514B020013DEA6 /* Sources */,
+				5A12C1DC26514B020013DEA6 /* Frameworks */,
+				5A12C1DD26514B020013DEA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AkriviaDice;
+			productName = AkriviaDice;
+			productReference = 5A12C1DF26514B020013DEA6 /* AkriviaDice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A12C1F426514B050013DEA6 /* AkriviaDiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A12C20C26514B050013DEA6 /* Build configuration list for PBXNativeTarget "AkriviaDiceTests" */;
+			buildPhases = (
+				5A12C1F126514B050013DEA6 /* Sources */,
+				5A12C1F226514B050013DEA6 /* Frameworks */,
+				5A12C1F326514B050013DEA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A12C1F726514B050013DEA6 /* PBXTargetDependency */,
+			);
+			name = AkriviaDiceTests;
+			productName = AkriviaDiceTests;
+			productReference = 5A12C1F526514B050013DEA6 /* AkriviaDiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A12C1FF26514B050013DEA6 /* AkriviaDiceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A12C20F26514B050013DEA6 /* Build configuration list for PBXNativeTarget "AkriviaDiceUITests" */;
+			buildPhases = (
+				5A12C1FC26514B050013DEA6 /* Sources */,
+				5A12C1FD26514B050013DEA6 /* Frameworks */,
+				5A12C1FE26514B050013DEA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A12C20226514B050013DEA6 /* PBXTargetDependency */,
+			);
+			name = AkriviaDiceUITests;
+			productName = AkriviaDiceUITests;
+			productReference = 5A12C20026514B050013DEA6 /* AkriviaDiceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A12C1D726514B020013DEA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					5A12C1DE26514B020013DEA6 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					5A12C1F426514B050013DEA6 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 5A12C1DE26514B020013DEA6;
+					};
+					5A12C1FF26514B050013DEA6 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 5A12C1DE26514B020013DEA6;
+					};
+				};
+			};
+			buildConfigurationList = 5A12C1DA26514B020013DEA6 /* Build configuration list for PBXProject "AkriviaDice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A12C1D626514B020013DEA6;
+			productRefGroup = 5A12C1E026514B020013DEA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A12C1DE26514B020013DEA6 /* AkriviaDice */,
+				5A12C1F426514B050013DEA6 /* AkriviaDiceTests */,
+				5A12C1FF26514B050013DEA6 /* AkriviaDiceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A12C1DD26514B020013DEA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A12C1EF26514B040013DEA6 /* LaunchScreen.storyboard in Resources */,
+				5A12C1EC26514B040013DEA6 /* Assets.xcassets in Resources */,
+				5A12C1EA26514B020013DEA6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A12C1F326514B050013DEA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A12C1FE26514B050013DEA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A12C1DB26514B020013DEA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A0810B026523B15001AA231 /* DateExtension.swift in Sources */,
+				5A0810A926523B15001AA231 /* NetworkProperties.swift in Sources */,
+				5A0810AA26523B15001AA231 /* WeatherVC.swift in Sources */,
+				5A0810A826523B15001AA231 /* NetworkManagerProtocol.swift in Sources */,
+				5A0810AD26523B15001AA231 /* IntExtension.swift in Sources */,
+				5A0810B826523B19001AA231 /* DiceVC.swift in Sources */,
+				5A0810AE26523B15001AA231 /* ImageViewExtension.swift in Sources */,
+				5A12C1E326514B020013DEA6 /* AppDelegate.swift in Sources */,
+				5A0810A726523B15001AA231 /* WeatherNetworkManager.swift in Sources */,
+				5A0810AF26523B15001AA231 /* KelvinToCelciusConverter.swift in Sources */,
+				5A12C1E526514B020013DEA6 /* SceneDelegate.swift in Sources */,
+				5A0810AC26523B15001AA231 /* DateExtension.xcdatamodeld in Sources */,
+				5A0810A626523B15001AA231 /* Weather.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A12C1F126514B050013DEA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A12C1FA26514B050013DEA6 /* AkriviaDiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A12C1FC26514B050013DEA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A12C20526514B050013DEA6 /* AkriviaDiceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A12C1F726514B050013DEA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A12C1DE26514B020013DEA6 /* AkriviaDice */;
+			targetProxy = 5A12C1F626514B050013DEA6 /* PBXContainerItemProxy */;
+		};
+		5A12C20226514B050013DEA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A12C1DE26514B020013DEA6 /* AkriviaDice */;
+			targetProxy = 5A12C20126514B050013DEA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A12C1E826514B020013DEA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A12C1E926514B020013DEA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A12C1ED26514B040013DEA6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A12C1EE26514B040013DEA6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A12C20726514B050013DEA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A12C20826514B050013DEA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A12C20A26514B050013DEA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DUW9E2KK9V;
+				INFOPLIST_FILE = AkriviaDice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sajida.AkriviaDice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A12C20B26514B050013DEA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DUW9E2KK9V;
+				INFOPLIST_FILE = AkriviaDice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sajida.AkriviaDice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5A12C20D26514B050013DEA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DUW9E2KK9V;
+				INFOPLIST_FILE = AkriviaDiceTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sajida.AkriviaDiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AkriviaDice.app/AkriviaDice";
+			};
+			name = Debug;
+		};
+		5A12C20E26514B050013DEA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DUW9E2KK9V;
+				INFOPLIST_FILE = AkriviaDiceTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sajida.AkriviaDiceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AkriviaDice.app/AkriviaDice";
+			};
+			name = Release;
+		};
+		5A12C21026514B050013DEA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AkriviaDiceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sajida.AkriviaDiceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AkriviaDice;
+			};
+			name = Debug;
+		};
+		5A12C21126514B050013DEA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AkriviaDiceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sajida.AkriviaDiceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AkriviaDice;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A12C1DA26514B020013DEA6 /* Build configuration list for PBXProject "AkriviaDice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A12C20726514B050013DEA6 /* Debug */,
+				5A12C20826514B050013DEA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A12C20926514B050013DEA6 /* Build configuration list for PBXNativeTarget "AkriviaDice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A12C20A26514B050013DEA6 /* Debug */,
+				5A12C20B26514B050013DEA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A12C20C26514B050013DEA6 /* Build configuration list for PBXNativeTarget "AkriviaDiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A12C20D26514B050013DEA6 /* Debug */,
+				5A12C20E26514B050013DEA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A12C20F26514B050013DEA6 /* Build configuration list for PBXNativeTarget "AkriviaDiceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A12C21026514B050013DEA6 /* Debug */,
+				5A12C21126514B050013DEA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5A08109B26523B14001AA231 /* DateExtension.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5A08109C26523B14001AA231 /* DateExtension.xcdatamodel */,
+			);
+			currentVersion = 5A08109C26523B14001AA231 /* DateExtension.xcdatamodel */;
+			path = DateExtension.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5A12C1D726514B020013DEA6 /* Project object */;
+}
